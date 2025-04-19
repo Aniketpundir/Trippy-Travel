@@ -26,6 +26,7 @@
     padding: 10px 5%;
     border: none;
     font-weight: 600;
+    text-align: center;
 }
 .form form button:hover{
     color: #fff;
@@ -43,6 +44,7 @@
         padding: 10px 7%;
         border: none;
         font-weight: 600;
+        text-align: center;
     }
 
     .form form button:hover{
