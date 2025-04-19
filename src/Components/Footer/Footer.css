@@ -1,0 +1,117 @@
+.footer{
+    background-color: black;
+}
+
+.footer-main-content{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.upper-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-content .upper-left h1{
+    font-size: 42px;
+    color: #fff;
+}
+
+.upper-content .upper-left p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.upper-content .upper-right{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.upper-content .upper-right i{
+    color: #fff;
+    font-size: 40px;
+}
+
+.footer-content{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.footer-mini-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-mini-boxes h3{
+    font-size: 26px;
+}
+
+.footer-mini-boxes p{
+    cursor: pointer;
+    font-size: 17px;
+}
+
+@media ((min-width:390px) and (max-width:850px)){
+    .upper-content .upper-left h1{
+        font-size: 32px;
+        color: #fff;
+    }
+    
+    .upper-content .upper-left p{
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        display: none;
+    }
+    
+    .upper-content .upper-right{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 20px;
+    }
+    
+    .upper-content .upper-right i{
+        color: #fff;
+        font-size: 24px;
+    }
+    
+    .footer-content{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        color: #fff;
+        padding-bottom: 50px;
+    }
+    
+    .footer-mini-boxes{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer-mini-boxes h3{
+        font-size: 26px;
+        text-decoration: underline;
+    }
+    
+    .footer-mini-boxes p{
+        cursor: pointer;
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,30 @@
+.main-image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85vh;
+}
+
+.main-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-image h1{
+    font-size: 52px;
+    margin-top: -20%;
+    text-align: center;
+    color: #fff;
+}
+
+@media ((min-width:390px) and (max-width:850px)){
+    .main-image{
+        height: 65vh;
+    }
+    .main-image h1{
+        font-size: 52px;
+        margin-top: -50%;
+        text-align: center;
+        color: #fff;
+    }
+}

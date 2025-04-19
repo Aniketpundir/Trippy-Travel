@@ -1,0 +1,58 @@
+.home{
+    background-image: url(../../assets/12.jpg);
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.home h1{
+    font-size: 56px;
+    color: #ffffffee;
+}
+
+.home p{
+    font-size: 26px;
+    font-weight: 500;
+    color: #fffffff9;
+}
+
+.home button{
+    padding: 15px 40px;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.home button:hover{
+    background-color: black;
+    color: #fff;
+    transition: all .25s ease-in-out;
+}
+
+@media ((min-width:390px) and (max-width:850px)){
+    .home h1{
+        font-size: 30px;
+        color: #ffffffee;
+    }
+
+    .home p{
+        font-size: 20px;
+        font-weight: 500;
+        color: #fffffff9;
+    }
+
+    .home button{
+        padding: 15px 80px;
+        font-size: 10px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+    }
+}

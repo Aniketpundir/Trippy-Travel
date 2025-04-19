@@ -1,0 +1,22 @@
+.about-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 60px 60px;
+}
+
+.about-text .text h1{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.about-text .text p{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+@media ((min-width:390px) and (max-width:850px)){
+    .about-text{
+        margin: 60px 20px;
+    }
+}

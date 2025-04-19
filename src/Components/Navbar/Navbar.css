@@ -1,0 +1,153 @@
+.navbar{
+    width: 100%;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    background-color: #fff;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
+    border-radius: 10px;
+    height: 80px;
+    z-index: 1000;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    padding: 10px 0;
+    margin-left: 10px;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.ham-icons{
+    display: none;
+}
+
+.nav-menu .menu-list{
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.nav-menu .menu-list:hover{
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+}
+
+.nav-menu .menu-list i{
+    margin: 0 2px;
+}
+
+.nav-menu button{   
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 0 10px;
+    color: black;
+    font-weight:500;
+    cursor: pointer;
+    border: none;
+}
+.nav-menu button:hover{   
+    color: #fff;
+    background-color: black;
+    transition: all .2s ease-in-out;
+}
+
+@media (max-width:850px){
+    .ham-icons{
+        display: block;
+        margin: 20px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .logo{
+        opacity: 100;
+    }
+    .nav-menu{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fff;
+        width: 80%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        padding: 80px 0 30px 0;
+    }
+    .nav-menu2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #fff;
+        width: 90%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0%;
+        opacity: 1;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        transition: all 1s ease-in-out;
+    }
+
+    .nav-menu .menu-list i{
+        margin: 0 2px;
+    }
+
+    .menu-list{
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        padding: 14px 14px;
+        margin: 0 35%;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu-list:hover{
+        background-color: #01959a;
+        color: #fff;
+        border-radius: 4px;
+        transition: all .2s ease-in-out;
+        /* margin: 20px 0; */
+    }
+    .menu-list i{
+        margin-right: 20px;
+    }
+
+    button{
+      padding: 14px 45px;
+      text-align: center;
+      margin: 4% 36%;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    button:hover{
+      background-color: black;
+      color: #fff;
+      border-radius: 8px;
+      padding: 14px 45px;
+      border: none;
+      transition: all .2s ease-in-out;
+      border: 1px solid black;
+    }
+}

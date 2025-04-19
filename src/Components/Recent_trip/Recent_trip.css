@@ -1,0 +1,33 @@
+.recent-trip{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 3%;
+}
+
+.trip-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.trip-header h1{
+    font-size: 42px;
+}
+.trip-header p{
+    font-size: 17px;
+}
+
+@media ((min-width:390px)and (max-width:850px)){
+    .recent-trip{
+        margin-bottom: 40px;
+    }
+    .trip-header h1{
+        font-size: 32px;
+        margin: 10px 10px;
+    }
+    .trip-header p{
+        font-size: 15px;
+    }
+}
