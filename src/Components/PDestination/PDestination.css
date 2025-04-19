@@ -58,7 +58,7 @@
     margin-top: 30px;
 }
 
-@media ((min-width:390px) and (max-width:850px) ){
+@media (max-width:850px){
     .P-Destination-Text{
         margin: 30px 10px;
     }

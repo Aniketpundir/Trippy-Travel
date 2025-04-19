@@ -63,7 +63,7 @@
     font-size: 17px;
 }
 
-@media ((min-width:190px) and (max-width:850px)){
+@media (max-width:850px){
     .upper-content .upper-left h1{
         font-size: 32px;
         color: #fff;
