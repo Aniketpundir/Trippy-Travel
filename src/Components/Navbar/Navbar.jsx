@@ -22,56 +22,27 @@ const Navbar = () => {
           </div>
 
           <div className={navShow ? "nav-menu" : "nav-menu2"}>
-            <Link
-              onClick={() => {
-                setNavShow(!navShow);
-              }}
-              className="menu-list"
-              to="/"
-            >
+            <Link className="menu-list" to="/">
               <p>
                 <i className="fa-solid fa-house-user"></i>Home
               </p>
             </Link>
-            <Link
-              onClick={() => {
-                setNavShow(!navShow);
-              }}
-              className="menu-list"
-              to="/About"
-            >
+            <Link className="menu-list" to="/About">
               <p>
                 <i className="fa-solid fa-circle-info"></i>About
               </p>
             </Link>
-            <Link
-              onClick={() => {
-                setNavShow(!navShow);
-              }}
-              className="menu-list"
-              to="/Service"
-            >
+            <Link className="menu-list" to="/Service">
               <p>
                 <i className="fa-solid fa-briefcase"></i>Service
               </p>
             </Link>
-            <Link
-              onClick={() => {
-                setNavShow(!navShow);
-              }}
-              className="menu-list"
-              to="/Contact"
-            >
+            <Link className="menu-list" to="/Contact">
               <p>
                 <i className="fa-solid fa-address-book"></i>Contact
               </p>
             </Link>
-            <Link
-              onClick={() => {
-                setNavShow(!navShow);
-              }}
-              to="/"
-            >
+            <Link to="/">
               <button>Sign Up</button>
             </Link>
           </div>
